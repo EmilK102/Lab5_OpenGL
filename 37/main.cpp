@@ -100,15 +100,15 @@ public:
 			return false;
 		}
         
-        if (!m_quad.LoadMesh("C:/dev/projects/Content/quad.obj")) {
+        if (!m_quad.LoadMesh("D:/Project/OpenGL/Lab5/Content/quad.obj")) {
             return false;
         }
 
-        if (!m_box.LoadMesh("C:/dev/projects/Content/box.obj")) {
+        if (!m_box.LoadMesh("D:/Project/OpenGL/Lab5/Content/box.obj")) {
 			return false;
 		}
 
-        if (!m_bsphere.LoadMesh("C:/dev/projects/Content/sphere.obj")) {
+        if (!m_bsphere.LoadMesh("D:/Project/OpenGL/Lab5/Content/sphere.obj")) {
 			return false;
 		}
 

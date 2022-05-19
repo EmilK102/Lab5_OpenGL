@@ -5,7 +5,7 @@
 #include "util.h"
 
 
-DSGeomPassTech::DSGeomPassTech() : Technique("C:/dev/projects/shaders/shaders5_7/geometry_pass.glsl")
+DSGeomPassTech::DSGeomPassTech() : Technique("D:/Project/OpenGL/Lab5/37/shaders5_7/geometry_pass.glsl")
 {   
 }
 

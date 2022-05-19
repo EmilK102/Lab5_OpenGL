@@ -8,7 +8,7 @@
 
 using namespace std;
 
-static const char* pEffectFile = "C:/dev/projects/shaders/shaders5_8/skinning.glsl";
+static const char* pEffectFile = "D:/Project/OpenGL/Lab5/38/shaders5_8/skinning.glsl";
 
 SkinningTechnique::SkinningTechnique() : Technique(pEffectFile)
 {   

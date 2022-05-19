@@ -5,7 +5,7 @@
 #include "util.h"
 
 
-DSLightPassTech::DSLightPassTech() : Technique("C:/dev/projects/shaders/shaders5_7/light_pass.glsl")
+DSLightPassTech::DSLightPassTech() : Technique("D:/Project/OpenGL/Lab5/37/shaders5_7/light_pass.glsl")
 {   
 }
 

@@ -86,7 +86,7 @@ public:
         m_pEffect->SetMatSpecularIntensity(0.0f);
         m_pEffect->SetMatSpecularPower(0);
 
-        if (!m_mesh.LoadMesh("C:/dev/projects/Content/boblampclean.md5mesh")) {
+        if (!m_mesh.LoadMesh("D:/Project/OpenGL/Lab5/Content/boblampclean.md5mesh")) {
             printf("Mesh load failed\n");
             return false;            
         }

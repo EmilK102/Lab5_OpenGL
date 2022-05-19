@@ -4,7 +4,7 @@
 #include "null_technique.h"
 #include "util.h"
 
-static const char* pEffectFile = "C:/dev/projects/shaders/shaders5_7/null_technique.glsl";
+static const char* pEffectFile = "D:/Project/OpenGL/Lab5/37/shaders5_7/null_technique.glsl";
 
 NullTechnique::NullTechnique() : Technique(pEffectFile)
 {   

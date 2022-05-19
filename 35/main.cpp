@@ -93,7 +93,7 @@ public:
         DSGeometryPass();
 		DSLightPass();
                             
-        RenderFPS();
+        //RenderFPS();
         
         glutSwapBuffers();
     }
@@ -108,7 +108,7 @@ public:
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 		Pipeline p;
-        p.Scale(0.1f, 0.1f, 0.1f);
+        p.Scale(5.0f, 5.0f, 5.0f);
         p.Rotate(0.0f, m_scale, 0.0f);
         p.WorldPos(-0.8f, -1.0f, 12.0f);
         p.SetCamera(m_pGameCamera->GetPos(), m_pGameCamera->GetTarget(), m_pGameCamera->GetUp());
